@@ -1,0 +1,6 @@
+/* Resetting default browser properties */
+
+* {
+    margin: 0;
+    padding: 0;
+}

@@ -115,10 +115,10 @@ const generateAll = () => {
     let years = pickEntry(time);
     let transfers = pickEntry(amountTransfers);
 
-    console.log(`You manage ${team}!`);
+/*    console.log(`You manage ${team}!`);
     console.log(`Your mission is to ${mission} in ${years} years.`);
     console.log(`You're allowed to sign ${transfers} players on the first transfer market.`);
-
+*/
     let changeVisibility = document.getElementsByClassName('hidden');
     for (let i=0; i<changeVisibility.length; i++) {
         changeVisibility[i].style.visibility = 'visible';

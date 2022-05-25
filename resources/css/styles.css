@@ -10,7 +10,7 @@ body {
 /* Header Styling */
 
 header {
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
 }
 
 h1 {
@@ -20,13 +20,14 @@ h1 {
 /* Main Styling */
 
 main {
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
     align-content: center;
 }
 
 button {
     border: 1px solid #c0fcc3;
     background-color: #c0fcc3;
+    color: #111211;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
@@ -66,4 +67,32 @@ footer {
     text-align: center;
     padding-bottom: 1rem;
     font-weight: 300;
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 3rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    .team, .transfers, .mission {
+        padding: 0.5rem 1.3rem;
+        margin: 1rem auto;
+    }
+
+    .padding {
+        padding-top: 0.2rem;
+    }
+
+    footer {
+        display: none;
+    }
+
 }

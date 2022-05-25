@@ -22,10 +22,10 @@ const topTeams = ['Arsenal', 'Chelsea', 'Liverpool', 'Manchester City', 'Manches
 const midTeams = ['Everton', 'Leicester City', 'West Ham', 'Wolves', 'Aston Villa', 'AS St. Etienne', 'Bordeaux', 'LOSC Lille', 'OGC Nizza', 'Stade Rennes', 'Eintracht Frankfurt', 'Borussia Mönchengladbach', 'TSG Hoffenheim', 'VfL Wolfsburg', 'Atalanta Bergamo', 'AC Fiorentina', 'Lazio Roma', 'AS Roma', 'Athletic Club', 'Real Betis', 'Real Sociedad', 'Valencia CF', 'Villarreal CF'];
 const lowTeams = ['Brentford', 'Brighton', 'Burnley', 'Crystal Palace', 'Leeds United', 'Newcastle United', 'Norwich', 'Southampton', 'Watford', 'SCO Angers', 'Clermont Foot 63', 'ESTAC Troyes', 'FC Lorient', 'FC Metz', 'FC Nantes', 'Montpellier', 'RC Lens', 'Stade Brest', 'Stade Reims', 'Strasbourg', '1. FC Köln', '1. FSV Mainz 05', 'DSC Arminia Bielefeld', 'FC Augsburg', 'Greuther Fürth', 'Hertha BSC Berlin', 'SC Freiburg', 'Union Berlin', 'VfB Stuttgart', 'VfL Bochum', 'Bologna', 'Cagliari Calcio', 'Empoli', 'Genoa', 'Hellas Verona', 'Salernitana', 'Sampdoria Genoa', 'Sassuolo', 'Spezia Calcio', 'FC Torino', 'Udinese', 'FC Venezia', 'CA Osasuna', 'Cádiz CF', 'Deportivo Alavés', 'Elche CF', 'Getafe CF', 'Granada CF', 'Levante UD', 'Rayo Vallecano', 'RC Celta Vigo', 'RCD Espanyol Barcelona', 'RCD Mallorca'];
 
-const missionTop = ['win all titles', 'become League Champion', 'win the National League and the National Cup'];
-const missionMid = ['win all titles', 'become League Champion', 'win the National League and the National Cup', 'qualify for the Champions League', 'qualify for the Europa League', 'qualify for the Conference League'];
-const missionLow = ['win all titles', 'become League Champion', 'win the National League and the National Cup', 'qualify for the Champions League', 'qualify for the Europa League', 'qualify for the Conference League', 'don\'t get relegated'];
-const missionLowerLeague = ['get promoted'];
+const missionTop = ['Win all titles', 'Become League Champion', 'Win the National League and the National Cup'];
+const missionMid = ['Win all titles', 'Become League Champion', 'Win the National League and the National Cup', 'Qualify for the Champions League', 'Qualify for the Europa League', 'Qualify for the Conference League'];
+const missionLow = ['Win all titles', 'Become League Champion', 'Win the National League and the National Cup', 'Qualify for the Champions League', 'Qualify for the Europa League', 'Qualify for the Conference League', 'Don\'t get relegated'];
+const missionLowerLeague = ['Get promoted'];
 const time = [1, 2, 3, 4, 5];
 const amountTransfers = [0, 1, 2, 3, 4, 5, 'as many as you want'];
 

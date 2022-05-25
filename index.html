@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="resources/css/basic-styles.css">
     <link rel="stylesheet" href="resources/css/styles.css">
 
-    <script src="main.js"></script>
-
     <title>Football Manager Mission Generator</title>
 </head>
 <body>
@@ -19,23 +17,25 @@
     </header>
 
     <main>
-        <button>Generate your mission!</button>
-        <div class="team">
+        <button id="btn1">Generate your mission!</button>
+        <div class="team hidden">
             <div>Team: </div>
-            <div class="padding">JS RETURN</div> 
+            <div class="padding" id="team"></div> 
         </div>
-        <div class="transfers">
-            <div>Transfers:</div>
-            <div class="padding">JS RETURN</div> 
+        <div class="transfers hidden">
+            <div>Transfers on the first market:</div>
+            <div class="padding" id="transfers"></div> 
         </div>
-        <div class="mission">
+        <div class="mission hidden">
             <div>Mission:</div>
-            <div class="padding">JS RETURN</div> 
+            <div class="padding" id="mission"></div> 
         </div>
     </main>
 
     <footer>
         &copy; Malte Lindemann 2022
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

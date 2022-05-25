@@ -133,7 +133,8 @@ const generateAll = () => {
     let missionWindow = document.getElementById('mission');
     missionWindow.innerHTML = mission + ' in ' + years + ' years';
 
-    let newBtn = document.getElementById('btn1').innerHTML = 'Generate again!';
+    let newBtn = document.getElementById('btn1');
+    newBtn.innerHTML = 'Generate again!';
 };
 
 let btn1 = document.getElementById('btn1');

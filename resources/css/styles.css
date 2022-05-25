@@ -1,3 +1,69 @@
+/* Universal Styling */
+
 body {
     text-align: center;
+    width: 100%;
+    color: seashell;
+    background-color: #111211;
+}
+
+/* Header Styling */
+
+header {
+    padding: 3rem 0;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+/* Main Styling */
+
+main {
+    padding: 3rem 0;
+    align-content: center;
+}
+
+button {
+    border: none;
+    background-color: seashell;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: #111211;
+    color: seashell;
+    border: 1px solid seashell;
+}
+
+.team, .transfers, .mission {
+    border: 2px solid seashell;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+/*    visibility: hidden; */
+}
+
+.padding {
+    padding-top: 0.5rem;
+}
+
+/* Footer Styling */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 300;
 }

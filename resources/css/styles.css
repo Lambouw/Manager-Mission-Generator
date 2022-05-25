@@ -44,11 +44,13 @@ button:hover {
 }
 
 .team, .transfers, .mission {
+    box-sizing: border-box;
     border: 2px solid #c0fcc3;
     border-radius: 1rem;
     padding: 1rem 2rem;
     margin: 2rem auto;
     width: 30%;
+    min-width: 14.463125rem;
     display: flex;
     flex-direction: column;
     visibility: hidden;

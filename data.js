@@ -1,4 +1,4 @@
-/* Array with countries */
+moin/* Array with countries */
 const countries = ['England', 'France', 'Germany', 'Italy', 'Spain'];
 
 /* Arrays with leagues */

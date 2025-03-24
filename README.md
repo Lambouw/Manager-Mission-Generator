@@ -13,7 +13,7 @@ This project is a **Football Manager Mission Generator** that creates random cha
 ## Project Structure
 
 ```bash
-. ├── data.js # Contains all the data for countries, leagues, teams, missions, etc.
+├── data.js # Contains all the data for countries, leagues, teams, missions, etc.
 ├── index.html # The main HTML file for the project.
 ├── main.js # Contains the logic for generating missions and updating the UI.
 ├── resources/

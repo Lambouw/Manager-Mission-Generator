@@ -44,7 +44,3 @@ This project is a **Football Manager Mission Generator** that creates random cha
 - HTML
 - CSS
 - JavaScript
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.

@@ -34,7 +34,7 @@ This project is a **Football Manager Mission Generator** that creates random cha
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/football-manager-mission-generator.git
+   git clone https://github.com/Lambouw/football-manager-mission-generator.git
    ```
 2. Open the index.html file in yout browser.
 3. Click the "Generate your mission!" button to get a random Football Manager challenge
